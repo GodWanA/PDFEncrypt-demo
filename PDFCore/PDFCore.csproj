@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<EnableComHosting>true</EnableComHosting>
+		<EnableRegFreeCom>true</EnableRegFreeCom>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="PdfSharp" Version="1.50.5147" />
+		<PackageReference Include="System.Text.Encoding.CodePages" Version="6.0.0" />
+	</ItemGroup>
+
+</Project>
