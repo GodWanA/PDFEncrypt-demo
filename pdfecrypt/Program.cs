@@ -12,6 +12,7 @@ void PrintError(Exception ex)
 }
 
 // main:
+//Console.WriteLine(args.Length);
 if (args.Length != 3)
 {
     Console.WriteLine("Hiányosak az argomentumok!");
@@ -25,7 +26,7 @@ Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 
 try
 {
-    if (PDFManipulate.EncryptPDF(path, pathFinished, args[3]))
+    if (PDFManipulate.EncryptPDF(path, pathFinished, args[2]))
     {
         Console.WriteLine("Sikeresen lementve");
         Console.WriteLine(path);
